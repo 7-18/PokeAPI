@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gemunu Libre", sans-serif;
+  background-color: #3e3d55;
+}
+
+.header {
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.dataPoke,
+.dataPokemon {
+  margin-top: 180px;
+}
+
+.dataPokemon {
+  margin: 15% auto auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: underline #ffffff;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.027);
+}
+
+.card {
+  border-top: 2px solid rgb(0, 217, 255);
+  border-left: 2px solid rgb(0, 217, 255);
+  border-right: 2px solid rgb(255, 0, 191);
+  border-bottom: 2px solid rgb(255, 0, 191);
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
