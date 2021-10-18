@@ -36,6 +36,9 @@ a:hover {
   background: rgba(255, 255, 255, 0.027);
 }
 
+.dataPokemon {
+  margin-top: 210px;
+}
 .card {
   border-top: 2px solid rgb(0, 217, 255);
   border-left: 2px solid rgb(0, 217, 255);
