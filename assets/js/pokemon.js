@@ -18,6 +18,7 @@ data.results.forEach((pokemon) => {
     return fetch(pokemon.url)
     .then((response) => response.json())
     .then((data) => {
+        html += '<a href="album.html" style="text-decoration: none;">';
         html += '<div class="card bg-dark mb-3" style="width: 30rem;">';
         html += `<div class="card-header"><img src="${data.sprites.other.dream_world.front_default}" class="card-img-top" widht= "190" height="240" alt="${data.name}"></img></div>`;
         html += `<h3 class="card-title card-header text-white text-center" style="font-size: 40px;">${data.name}</h3>`;
@@ -28,6 +29,7 @@ data.results.forEach((pokemon) => {
         html += "</div>";
         html += "</div>";
         html += "</div>";
+        html += "</a>";
         document.getElementById("dataPokemon").innerHTML = html;
 });
 });
